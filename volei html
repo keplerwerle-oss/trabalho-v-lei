@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo do Vôlei | Guia Completo - Sistema 5x1 e Regras</title>
+    <meta name="description" content="Trabalho escolar completo sobre Voleibol: aprenda o Sistema 5x1, posições, rotação, regras oficiais e assista a vídeos explicativos.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO / MENU DE NAVEGAÇÃO -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#inicio" class="logo" data-page="inicio">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    <path d="M2 12h20"></path>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-title">VÔLEI ESCOLAR</span>
+                    <span class="logo-subtitle">Educação Física • Ensino Médio</span>
+                </div>
+            </a>
+
+            <!-- Botão Menu Mobile -->
+            <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu de navegação">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <!-- Links de Navegação -->
+            <nav id="navbar" class="navbar">
+                <ul class="nav-list">
+                    <li><button class="nav-btn active" data-page="inicio">Início</button></li>
+                    <li><button class="nav-btn" data-page="sistema5x1">Sistema 5x1</button></li>
+                    <li><button class="nav-btn" data-page="regras">Regras do Vôlei</button></li>
+                    <li><button class="nav-btn" data-page="videos">Vídeos</button></li>
+                    <li><button class="nav-btn" data-page="quiz">Quiz Rápido</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL (SEÇÕES/PÁGINAS) -->
+    <main id="main-content">
+
+        <!-- ==============================================
+             1. PÁGINA INICIAL
+             ============================================== -->
+        <section id="inicio" class="page-section active">
+            <div class="hero-banner">
+                <div class="container hero-container">
+                    <div class="hero-badge">🏐 Trabalho Escolar de Educação Física</div>
+                    <h1 class="hero-title">O Fascínio e a Tática do <span class="highlight-orange">Voleibol</span></h1>
+                    <p class="hero-description">
+                        Bem-vindo ao nosso portal escolar sobre o vôlei! Um guia completo, dinâmico e direto ao ponto
+                        para entender as principais regras, o posicionamento dos atletas e a estratégia do mais famoso
+                        esquema tático do mundo: o <strong>Sistema 5x1</strong>.
+                    </p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary btn-lg" data-page="sistema5x1">
+                            Começar o Estudo
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </button>
+                        <button class="btn btn-outline btn-lg" data-page="videos">
+                            Assistir Vídeos
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container content-wrapper">
+                <!-- Visão Geral em Cards -->
+                <div class="section-header text-center">
+                    <span class="section-tag">O QUE VOCÊ VAI APRENDER</span>
+                    <h2 class="section-title">Conteúdo do Nosso Trabalho</h2>
+                    <p class="section-subtitle">Navegue pelos módulos interativos desenvolvidos para facilitar a compreensão de todos.</p>
+                </div>
+
+                <div class="card-grid">
+                    <div class="card feature-card">
+                        <div class="feature-icon orange-bg">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/></svg>
+                        </div>
+                        <h3 class="card-title">Sistema Tático 5x1</h3>
+                        <p class="card-text">Entenda a distribuição de 5 atacantes e 1 levantador, a dinâmica da quadra e as 6 posições oficiais.</p>
+                        <button class="btn btn-text" data-page="sistema5x1">Acessar Sistema 5x1 &rarr;</button>
+                    </div>
+
+                    <div class="card feature-card">
+                        <div class="feature-icon blue-bg">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                        </div>
+                        <h3 class="card-title">Regras Oficiais</h3>
+                        <p class="card-text">Toques permitidos, pontuação de sets, sistema de rodízio, faltas na rede e limites da quadra sem complicação.</p>
+                        <button class="btn btn-text" data-page="regras">Ver Regras do Vôlei &rarr;</button>
+                    </div>
+
+                    <div class="card feature-card">
+                        <div class="feature-icon orange-bg">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
+                        </div>
+                        <h3 class="card-title">Quadra Interativa</h3>
+                        <p class="card-text">Esquema visual desenhado com HTML e CSS que mostra as posições numeradas de 1 a 6 e suas funções exatas.</p>
+                        <button class="btn btn-text" data-page="sistema5x1">Ver Quadra em CSS &rarr;</button>
+                    </div>
+
+                    <div class="card feature-card">
+                        <div class="feature-icon blue-bg">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                        </div>
+                        <h3 class="card-title">Vídeos Explicativos</h3>
+                        <p class="card-text">Dois vídeos selecionados para assistir diretamente na página: um sobre o 5x1 e outro sobre as regras do vôlei.</p>
+                        <button class="btn btn-text" data-page="videos">Assistir Vídeos &rarr;</button>
+                    </div>
+                </div>
+
+                <!-- Box Resumo Escolar -->
+                <div class="info-banner">
+                    <div class="info-banner-content">
+                        <h3>Sobre o Voleibol no Contexto Escolar</h3>
+                        <p>
+                            Criado em 1895 por William G. Morgan nos Estados Unidos com o nome original de <em>Mintonette</em>,
+                            o voleibol tornou-se um dos esportes mais praticados e respeitados do planeta.
+                            No ambiente escolar, destaca-se por ser um esporte <strong>sem contato físico direto</strong> entre os adversários,
+                            estimulando valores fundamentais como cooperação mútua, agilidade mental, disciplina e espírito de equipe.
+                        </p>
+                    </div>
+                    <div class="info-banner-meta">
+                        <span class="meta-item">🏆 <strong>Esporte Olímpico:</strong> Desde Tóquio 1964</span>
+                        <span class="meta-item">👥 <strong>Atletas em Quadra:</strong> 12 (6 por equipe)</span>
+                        <span class="meta-item">⚡ <strong>Objetivo Principal:</strong> Fazer a bola tocar no chão adversário</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             2. PÁGINA SOBRE O SISTEMA 5X1
+             ============================================== -->
+        <section id="sistema5x1" class="page-section">
+            <div class="section-title-bar">
+                <div class="container">
+                    <span class="section-tag light">TÁTICA E FORMAÇÃO</span>
+                    <h1>O Sistema Tático 5x1</h1>
+                    <p>O modelo tático mais clássico e eficiente do voleibol mundial explicado de forma simples.</p>
+                </div>
+            </div>
+
+            <div class="container content-wrapper">
+                <!-- Explicação Geral -->
+                <div class="article-box">
+                    <h2>Como Funciona o Sistema 5x1?</h2>
+                    <p class="lead-text">
+                        O nome <strong>5x1</strong> representa a estrutura de funções do time: <strong>5 jogadores com função principal de ataque</strong>
+                        e <strong>1 único levantador especialista</strong>, responsável pela armação e organização de todas as jogadas.
+                    </p>
+                    <div class="explanation-grid">
+                        <div class="explanation-card">
+                            <div class="exp-badge">1 Levantador</div>
+                            <h4>O "Cérebro" da Equipe</h4>
+                            <p>
+                                É quem toca na 2ª bola para distribuir o ataque. Quando o levantador está na <strong>zona de defesa (fundo)</strong>,
+                                ele faz a jogada de <em>infiltração</em> para a rede, permitindo que a equipe ataque com <strong>3 atacantes na rede</strong>.
+                                Quando está na <strong>zona de ataque (rede)</strong>, a equipe joga com 2 atacantes na rede e opções de fundo.
+                            </p>
+                        </div>
+                        <div class="explanation-card">
+                            <div class="exp-badge">5 Atacantes</div>
+                            <h4>A Força Ofensiva</h4>
+                            <p>
+                                Os atacantes são especializados em funções específicas:
+                                <strong>2 Ponteiros</strong> (ataque de ponta e recepção),
+                                <strong>2 Centrais/Meios</strong> (bloqueio e ataques velozes pelo centro) e
+                                <strong>1 Oposto</strong> (o maior pontuador da equipe, que joga na diagonal do levantador).
+                            </p>
+                        </div>
+                        <div class="explanation-card">
+                            <div class="exp-badge">O Rodízio</div>
+                            <h4>Sentido Horário Obrigatório</h4>
+                            <p>
+                                Cada vez que o time receptor vence a jogada e recupera o saque, todos os 6 atletas devem rodar
+                                <strong>uma posição no sentido horário</strong> (1 &rarr; 6 &rarr; 5 &rarr; 4 &rarr; 3 &rarr; 2 &rarr; 1).
+                                Após o saque ser efetuado, os atletas podem trocar de lugar para ocupar suas posições de especialização!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quadra de Vôlei em CSS -->
+                <div class="court-section">
+                    <div class="court-header text-center">
+                        <span class="section-tag">ESQUEMA VISUAL DA QUADRA</span>
+                        <h2>A Quadra e as 6 Posições Numeradas</h2>
+                        <p>Clique ou passe o mouse sobre cada posição para ver suas funções e características em quadra:</p>
+                    </div>
+
+                    <!-- Desenho da Quadra em HTML/CSS Puro -->
+                    <div class="court-wrapper">
+                        <div class="volleyball-court" id="court">
+                            <!-- Indicador de Rede Superior -->
+                            <div class="net-banner">
+                                <span class="net-line"></span>
+                                <span class="net-text">REDE / LINHA CENTRAL (QUADRA DO NOSSO TIME)</span>
+                                <span class="net-line"></span>
+                            </div>
+
+                            <!-- Zona de Ataque (Rede - 3 metros) -->
+                            <div class="court-zone attack-zone">
+                                <div class="zone-label">ZONA DE ATAQUE (REDE - 3 METROS)</div>
+                                <div class="court-positions-row">
+                                    <!-- Posição 4 -->
+                                    <div class="court-position pos-4" data-target="pos-card-4" tabindex="0">
+                                        <div class="pos-number">4</div>
+                                        <div class="pos-name">Frente Esquerda</div>
+                                        <div class="pos-role">Ponta / Entrada</div>
+                                    </div>
+                                    <!-- Posição 3 -->
+                                    <div class="court-position pos-3" data-target="pos-card-3" tabindex="0">
+                                        <div class="pos-number">3</div>
+                                        <div class="pos-name">Frente Central</div>
+                                        <div class="pos-role">Meio de Rede</div>
+                                    </div>
+                                    <!-- Posição 2 -->
+                                    <div class="court-position pos-2" data-target="pos-card-2" tabindex="0">
+                                        <div class="pos-number">2</div>
+                                        <div class="pos-name">Frente Direita</div>
+                                        <div class="pos-role">Saída / Oposto</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Linha dos 3 Metros (Linha de Ataque) -->
+                            <div class="three-meter-line">
+                                <span>LINHA DOS 3 METROS (LINHA DE ATAQUE)</span>
+                            </div>
+
+                            <!-- Zona de Defesa (Fundo - 6 metros) -->
+                            <div class="court-zone defense-zone">
+                                <div class="zone-label">ZONA DE DEFESA / FUNDO DE QUADRA (6 METROS)</div>
+                                <div class="court-positions-row">
+                                    <!-- Posição 5 -->
+                                    <div class="court-position pos-5" data-target="pos-card-5" tabindex="0">
+                                        <div class="pos-number">5</div>
+                                        <div class="pos-name">Fundo Esquerdo</div>
+                                        <div class="pos-role">Defesa / Passe</div>
+                                    </div>
+                                    <!-- Posição 6 -->
+                                    <div class="court-position pos-6" data-target="pos-card-6" tabindex="0">
+                                        <div class="pos-number">6</div>
+                                        <div class="pos-name">Fundo Central</div>
+                                        <div class="pos-role">Defesa / Cobertura</div>
+                                    </div>
+                                    <!-- Posição 1 -->
+                                    <div class="court-position pos-1" data-target="pos-card-1" tabindex="0">
+                                        <div class="pos-number">1</div>
+                                        <div class="pos-name">Fundo Direito</div>
+                                        <div class="pos-role">Saque e Defesa</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Linha de Fundo / Zona de Saque -->
+                            <div class="service-zone-indicator">
+                                <span class="service-arrow">&uarr;</span> ÁREA DE SAQUE (ATRAVÉS DA POSIÇÃO 1)
+                            </div>
+                        </div>
+
+                        <!-- Legenda da Quadra -->
+                        <div class="court-legend">
+                            <div class="legend-item"><span class="legend-dot attack"></span> <strong>Zona de Ataque (Rede):</strong> Posições 4, 3 e 2</div>
+                            <div class="legend-item"><span class="legend-dot defense"></span> <strong>Zona de Fundo (Defesa):</strong> Posições 5, 6 e 1</div>
+                            <div class="legend-item"><span class="legend-dot rotation"></span> <strong>Sentido do Rodízio:</strong> Sentido horário (1 &rarr; 6 &rarr; 5 &rarr; 4 &rarr; 3 &rarr; 2)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Detalhamento das 6 Posições em Cards -->
+                <div class="positions-detail-section">
+                    <div class="section-header text-center">
+                        <span class="section-tag">AS 6 POSIÇÕES OFICIAIS</span>
+                        <h2>Funções Detalhadas de Cada Posição</h2>
+                        <p>Cada atleta possui responsabilidades estratégicas bem definidas em quadra:</p>
+                    </div>
+
+                    <div class="positions-grid">
+                        <!-- Posição 1 -->
+                        <div class="card pos-card" id="pos-card-1">
+                            <div class="pos-card-header">
+                                <span class="pos-badge">Posição 1</span>
+                                <span class="pos-zone-tag">Fundo de Quadra</span>
+                            </div>
+                            <h3>Fundo Direito (Saque e Defesa)</h3>
+                            <p>
+                                É a posição de onde é executado o <strong>saque</strong> da equipe. Quando a bola é sacada,
+                                o atleta da posição 1 assume a defesa no fundo direito da quadra, cobrindo largadas e
+                                ataques da diagonal adversária.
+                            </p>
+                            <ul class="pos-highlights">
+                                <li><strong>Principal função:</strong> Saque e defesa do fundo direito.</li>
+                                <li><strong>Jogador típico:</strong> Levantador (quando no fundo), ponteiro ou oposto.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Posição 2 -->
+                        <div class="card pos-card" id="pos-card-2">
+                            <div class="pos-card-header">
+                                <span class="pos-badge">Posição 2</span>
+                                <span class="pos-zone-tag">Frente / Rede</span>
+                            </div>
+                            <h3>Frente Direita (Ataque e Bloqueio)</h3>
+                            <p>
+                                Conhecida como <strong>saída de rede</strong>. O jogador nesta posição atua ativamente
+                                no bloqueio duplo ou triplo e efetua ataques potentes pela direita da quadra.
+                            </p>
+                            <ul class="pos-highlights">
+                                <li><strong>Principal função:</strong> Bloqueio e ataque de saída de rede.</li>
+                                <li><strong>Jogador típico:</strong> Oposto ou Levantador (quando na rede).</li>
+                            </ul>
+                        </div>
+
+                        <!-- Posição 3 -->
+                        <div class="card pos-card" id="pos-card-3">
+                            <div class="pos-card-header">
+                                <span class="pos-badge">Posição 3</span>
+                                <span class="pos-zone-tag">Frente / Rede</span>
+                            </div>
+                            <h3>Frente Central (Bloqueio Central)</h3>
+                            <p>
+                                Conhecida como <strong>meio de rede</strong>. É o jogador que participa de praticamente
+                                <em>todos</em> os bloqueios da equipe, deslocando-se rapidamente para a esquerda ou direita,
+                                além de ser acionado em ataques velozes pelo centro (bola de primeiro tempo).
+                            </p>
+                            <ul class="pos-highlights">
+                                <li><strong>Principal função:</strong> Bloqueio central e ataques rápidos.</li>
+                                <li><strong>Jogador típico:</strong> Central / Meio de rede.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Posição 4 -->
+                        <div class="card pos-card" id="pos-card-4">
+                            <div class="pos-card-header">
+                                <span class="pos-badge">Posição 4</span>
+                                <span class="pos-zone-tag">Frente / Rede</span>
+                            </div>
+                            <h3>Frente Esquerda (Entrada de Rede)</h3>
+                            <p>
+                                Conhecida como <strong>entrada de rede</strong> ou ponta. É a principal válvula de escape
+                                ofensiva para bolas altas e difíceis, exigindo do atleta grande impulsão, técnica de corte
+                                e participação firme no bloqueio.
+                            </p>
+                            <ul class="pos-highlights">
+                                <li><strong>Principal função:</strong> Ataque de ponta e bloqueio da entrada.</li>
+                                <li><strong>Jogador típico:</strong> Ponteiro (Outside Hitter).</li>
+                            </ul>
+                        </div>
+
+                        <!-- Posição 5 -->
+                        <div class="card pos-card" id="pos-card-5">
+                            <div class="pos-card-header">
+                                <span class="pos-badge">Posição 5</span>
+                                <span class="pos-zone-tag">Fundo de Quadra</span>
+                            </div>
+                            <h3>Fundo Esquerdo (Defesa e Recepção)</h3>
+                            <p>
+                                Localizada no fundo esquerdo. É uma posição de altíssima exigência defensiva e de recepção
+                                de saque (passe). É comumente ocupada pelo <strong>Líbero</strong> ou por um ponteiro passador.
+                            </p>
+                            <ul class="pos-highlights">
+                                <li><strong>Principal função:</strong> Passe na recepção do saque e defesa de ataques diagonais.</li>
+                                <li><strong>Jogador típico:</strong> Líbero ou Ponteiro.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Posição 6 -->
+                        <div class="card pos-card" id="pos-card-6">
+                            <div class="pos-card-header">
+                                <span class="pos-badge">Posição 6</span>
+                                <span class="pos-zone-tag">Fundo de Quadra</span>
+                            </div>
+                            <h3>Fundo Central (Defesa e Cobertura)</h3>
+                            <p>
+                                Fica no centro do fundo da quadra. Esse atleta é o responsável pela <strong>cobertura de bloqueio</strong>,
+                                por bolas que batem no bloqueio e voltam para trás, e por defender ataques que passam pelo meio da rede.
+                            </p>
+                            <ul class="pos-highlights">
+                                <li><strong>Principal função:</strong> Cobertura de bloqueio e defesa central.</li>
+                                <li><strong>Jogador típico:</strong> Líbero ou Ponteiro / Ataque do fundo (pipe).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vídeo Integrado do Sistema 5x1 -->
+                <div class="video-embed-box">
+                    <div class="video-info">
+                        <span class="section-tag">VÍDEO EXPLICATIVO</span>
+                        <h3>Aula Visual: O Sistema 5x1 na Prática</h3>
+                        <p>
+                            Assista abaixo à explicação detalhada com movimentações, rodízio e posicionamento tático
+                            dos jogadores em quadra.
+                        </p>
+                        <div class="embed-instruction">
+                            <small>💡 <em>Dica: Para substituir por outro vídeo do YouTube, basta alterar o atributo <code>src</code> do iframe no arquivo <code>index.html</code>.</em></small>
+                        </div>
+                    </div>
+                    <div class="responsive-video-container">
+                        <!-- LINK DO YOUTUBE FÁCIL DE SUBSTITUIR -->
+                        <iframe 
+                            src="https://www.youtube.com/embed/bDFdPd6Krns" 
+                            title="Vídeo Explicativo - Sistema 5x1 do Voleibol" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Navegação inferior da seção -->
+                <div class="section-footer-nav">
+                    <button class="btn btn-secondary" data-page="inicio">&larr; Voltar ao Início</button>
+                    <button class="btn btn-primary" data-page="regras">Próximo: Regras do Vôlei &rarr;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             3. PÁGINA SOBRE AS REGRAS DO VÔLEI
+             ============================================== -->
+        <section id="regras" class="page-section">
+            <div class="section-title-bar">
+                <div class="container">
+                    <span class="section-tag light">REGULAMENTO OFICIAL RESUMIDO</span>
+                    <h1>Regras Fundamentais do Voleibol</h1>
+                    <p>Tudo o que você precisa saber para jogar, arbitrar e acompanhar uma partida oficial.</p>
+                </div>
+            </div>
+
+            <div class="container content-wrapper">
+                <div class="rules-intro-card">
+                    <p class="lead-text">
+                        O voleibol é regido pela Federação Internacional de Voleibol (FIVB). As regras foram pensadas
+                        para manter a bola voando pelo ar com o máximo de agilidade, estratégia e dinamismo coletivo.
+                    </p>
+                </div>
+
+                <!-- Lista de Regras em Cards Estruturados -->
+                <div class="rules-grid">
+                    <!-- Regra 1 -->
+                    <div class="card rule-card">
+                        <div class="rule-number">1</div>
+                        <div class="rule-content">
+                            <h3>Composição da Equipe em Quadra</h3>
+                            <p>
+                                Cada equipe joga obrigatoriamente com <strong>6 jogadores titulares</strong> em quadra.
+                                No banco de reservas podem ficar até 6 suplentes, totalizando até 12 atletas (além do líbero adicional, quando houver).
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Regra 2 -->
+                    <div class="card rule-card">
+                        <div class="rule-number">2</div>
+                        <div class="rule-content">
+                            <h3>Limite de Três Toques</h3>
+                            <p>
+                                Cada equipe pode tocar na bola no máximo <strong>três vezes</strong> antes de enviá-la para o outro lado da rede.
+                                <em>Importante:</em> o toque no bloqueio <strong>não é contabilizado</strong> como um dos três toques da equipe.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Regra 3 -->
+                    <div class="card rule-card">
+                        <div class="rule-number">3</div>
+                        <div class="rule-content">
+                            <h3>Dois Toques Consecutivos (Falta)</h3>
+                            <p>
+                                O mesmo jogador <strong>não pode dar dois toques consecutivos</strong> na bola.
+                                A única exceção é quando o jogador toca na bola no bloqueio: ele ainda tem o direito de realizar o primeiro toque subsequente da equipe.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Regra 4 -->
+                    <div class="card rule-card">
+                        <div class="rule-number">4</div>
+                        <div class="rule-content">
+                            <h3>Estrutura da Partida em Sets</h3>
+                            <p>
+                                O jogo é disputado em formato de melhor de 5 sets (quem vencer 3 sets ganha o jogo).
+                                Os quatro primeiros sets são jogados até <strong>25 pontos</strong>.
+                                Em caso de empate por 2x2 em sets, o 5º set (chamado de <em>Tie-Break</em>) é disputado até <strong>15 pontos</strong>.
+                                Em todos os sets, é obrigatório vencer com pelo menos <strong>2 pontos de vantagem</strong> (ex: 26x24, 16x14).
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Regra 5 -->
+                    <div class="card rule-card">
+                        <div class="rule-number">5</div>
+                        <div class="rule-content">
+                            <h3>Pontuação Contínua (Rally Point)</h3>
+                            <p>
+                                Cada jogada disputada resulta em <strong>ponto direto</strong> para a equipe que vencer o rali.
+                                Não é necessário estar na posse do saque para pontuar.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Regra 6 -->
+                    <div class="card rule-card">
+                        <div class="rule-number">6</div>
+                        <div class="rule-content">
+                            <h3>Direito de Saque e Rodízio</h3>
+                            <p>
+                                Quando a equipe que está recebendo o saque vence a jogada, ela marca um ponto, conquista
+                                o direito de sacar e todos os seus 6 jogadores devem realizar o <strong>rodízio em sentido horário</strong>.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Regra 7 -->
+                    <div class="card rule-card">
+                        <div class="rule-number">7</div>
+                        <div class="rule-content">
+                            <h3>Bola Dentro e Linhas da Quadra</h3>
+                            <p>
+                                A bola é considerada <strong>DENTRO</strong> quando toca o piso da quadra de jogo,
+                                <strong>incluindo qualquer parte das linhas limítrofes</strong> (as linhas pertencem à quadra).
+                                É considerada FORA quando toca o chão totalmente fora das linhas ou as antenas da rede.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Regra 8 -->
+                    <div class="card rule-card">
+                        <div class="rule-number">8</div>
+                        <div class="rule-content">
+                            <h3>Toque Limpo (Proibido Conduzir)</h3>
+                            <p>
+                                A bola deve ser golpeada de maneira nítida e instantânea.
+                                <strong>Não é permitido segurar, empurrar, carregar ou lançar a bola</strong> com as mãos ou braços (falta de condução).
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Regra 9 -->
+                    <div class="card rule-card">
+                        <div class="rule-number">9</div>
+                        <div class="rule-content">
+                            <h3>Invasão e Faltas na Rede</h3>
+                            <p>
+                                Os atletas <strong>não podem tocar na rede</strong> (especialmente na faixa superior) durante uma ação de jogo.
+                                Também é falta invadir o campo adversário por baixo da rede de forma que interfira na jogada ou atrapalhe o rival.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vídeo Integrado das Regras -->
+                <div class="video-embed-box">
+                    <div class="video-info">
+                        <span class="section-tag">VÍDEO EXPLICATIVO</span>
+                        <h3>Resumo das Regras Oficiais do Voleibol</h3>
+                        <p>
+                            Veja neste vídeo didático as explicações práticas sobre sets, rodízio, faltas
+                            e a rotina de um jogo oficial de vôlei.
+                        </p>
+                        <div class="embed-instruction">
+                            <small>💡 <em>Dica: Para substituir por outro vídeo do YouTube, basta alterar o atributo <code>src</code> do iframe no arquivo <code>index.html</code>.</em></small>
+                        </div>
+                    </div>
+                    <div class="responsive-video-container">
+                        <!-- LINK DO YOUTUBE FÁCIL DE SUBSTITUIR -->
+                        <iframe 
+                            src="https://www.youtube.com/embed/sLFg-MmHGaI" 
+                            title="Vídeo Explicativo - Regras Básicas do Voleibol" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Navegação inferior da seção -->
+                <div class="section-footer-nav">
+                    <button class="btn btn-secondary" data-page="sistema5x1">&larr; Sistema 5x1</button>
+                    <button class="btn btn-primary" data-page="videos">Ir para Seção de Vídeos &rarr;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             4. PÁGINA DE VÍDEOS
+             ============================================== -->
+        <section id="videos" class="page-section">
+            <div class="section-title-bar">
+                <div class="container">
+                    <span class="section-tag light">GALERIA MULTIMÍDIA</span>
+                    <h1>Vídeos Explicativos</h1>
+                    <p>Espaço dedicado aos conteúdos audiovisuais que enriquecem o nosso trabalho escolar.</p>
+                </div>
+            </div>
+
+            <div class="container content-wrapper">
+                <div class="videos-gallery">
+                    <!-- Card de Vídeo 1: Sistema 5x1 -->
+                    <div class="card video-card">
+                        <div class="video-card-header">
+                            <span class="video-badge orange-badge">Tática e Posições</span>
+                            <h2>1. Como Funciona o Sistema 5x1 no Vôlei</h2>
+                            <p>
+                                Vídeo explicativo focado na movimentação de rodízio, infiltração do levantador
+                                e distribuição dos 5 atacantes pela quadra.
+                            </p>
+                        </div>
+                        <div class="responsive-video-container">
+                            <!-- IFRAME DO SISTEMA 5X1 -->
+                            <iframe 
+                                src="https://www.youtube.com/embed/bDFdPd6Krns" 
+                                title="Vídeo do Sistema 5x1" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="video-card-footer">
+                            <div class="video-topics">
+                                <strong>Pontos abordados:</strong>
+                                <ul>
+                                    <li>Posição do levantador no fundo e na rede</li>
+                                    <li>Rodízio em sentido horário</li>
+                                    <li>Troca de posições após o saque</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card de Vídeo 2: Regras do Vôlei -->
+                    <div class="card video-card">
+                        <div class="video-card-header">
+                            <span class="video-badge blue-badge">Regulamento Oficial</span>
+                            <h2>2. Principais Regras Básicas do Voleibol</h2>
+                            <p>
+                                Um resumo didático sobre a pontuação por sets, limite de 3 toques, faltas de rede
+                                e os fundamentos básicos do jogo.
+                            </p>
+                        </div>
+                        <div class="responsive-video-container">
+                            <!-- IFRAME DAS REGRAS DO VÔLEI -->
+                            <iframe 
+                                src="https://www.youtube.com/embed/sLFg-MmHGaI" 
+                                title="Vídeo das Regras Básicas do Voleibol" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="video-card-footer">
+                            <div class="video-topics">
+                                <strong>Pontos abordados:</strong>
+                                <ul>
+                                    <li>Contagem de pontos e Tie-Break</li>
+                                    <li>Toques permitidos e toque no bloqueio</li>
+                                    <li>Critérios para bola dentro e fora</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box Informativo de Edição de Vídeos -->
+                <div class="helper-box">
+                    <div class="helper-icon">💡</div>
+                    <div class="helper-content">
+                        <h4>Como substituir os vídeos pelo código do YouTube?</h4>
+                        <p>
+                            Para trocar qualquer um dos vídeos por outro de sua preferência:
+                            abra o arquivo <code>index.html</code> no VS Code, localize o trecho <code>src="https://www.youtube.com/embed/CODIGO_DO_VIDEO"</code>
+                            e substitua o código final pelo ID do novo vídeo do YouTube.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Navegação inferior da seção -->
+                <div class="section-footer-nav">
+                    <button class="btn btn-secondary" data-page="regras">&larr; Voltar para Regras</button>
+                    <button class="btn btn-primary" data-page="quiz">Testar Conhecimento no Quiz &rarr;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             5. PÁGINA BÔNUS: QUIZ RÁPIDO DE FIXAÇÃO
+             ============================================== -->
+        <section id="quiz" class="page-section">
+            <div class="section-title-bar">
+                <div class="container">
+                    <span class="section-tag light">ATIVIDADE INTERATIVA</span>
+                    <h1>Quiz de Fixação Escolar</h1>
+                    <p>Responda às 5 perguntas rápidas para testar o que você aprendeu neste trabalho!</p>
+                </div>
+            </div>
+
+            <div class="container content-wrapper">
+                <div class="quiz-container card">
+                    <div class="quiz-header">
+                        <span class="quiz-progress" id="quiz-progress">Pergunta 1 de 5</span>
+                        <span class="quiz-score" id="quiz-score">Pontuação: 0</span>
+                    </div>
+
+                    <div id="quiz-body" class="quiz-body">
+                        <!-- Pergunta e opções são geradas pelo script.js -->
+                    </div>
+
+                    <div id="quiz-result" class="quiz-result" style="display: none;">
+                        <div class="result-icon" id="result-icon">🎉</div>
+                        <h3 id="result-title">Parabéns!</h3>
+                        <p id="result-message">Você concluiu o quiz do trabalho sobre voleibol.</p>
+                        <button class="btn btn-primary" id="btn-restart-quiz">Refazer Quiz</button>
+                        <button class="btn btn-secondary" data-page="inicio">Voltar ao Início</button>
+                    </div>
+                </div>
+
+                <div class="section-footer-nav">
+                    <button class="btn btn-secondary" data-page="videos">&larr; Voltar para Vídeos</button>
+                    <button class="btn btn-primary" data-page="inicio">Voltar ao Início &rarr;</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- BOTÃO FLUTUANTE VOLTAR AO TOPO -->
+    <button id="btn-back-to-top" class="btn-back-to-top" title="Voltar ao início da página" aria-label="Voltar ao início">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+
+    <!-- RODAPÉ COMPLETO DO TRABALHO ESCOLAR -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                    <span>VÔLEI ESCOLAR</span>
+                </div>
+                <p class="footer-about">
+                    Trabalho escolar desenvolvido para a disciplina de Educação Física do Ensino Médio.
+                    Construído com HTML5, CSS3 e JavaScript puro.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Navegação Rápida</h4>
+                <ul class="footer-links">
+                    <li><button data-page="inicio">Página Inicial</button></li>
+                    <li><button data-page="sistema5x1">Sistema 5x1 e Quadra</button></li>
+                    <li><button data-page="regras">Regras Fundamentais</button></li>
+                    <li><button data-page="videos">Vídeos Explicativos</button></li>
+                    <li><button data-page="quiz">Quiz Interativo</button></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Dados do Trabalho</h4>
+                <ul class="footer-meta">
+                    <li><strong>Disciplina:</strong> Educação Física</li>
+                    <li><strong>Tema:</strong> Voleibol, Tática 5x1 e Regras</li>
+                    <li><strong>Nível:</strong> Ensino Médio</li>
+                    <li><strong>Desenvolvimento:</strong> HTML, CSS e JavaScript</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p>&copy; Trabalho Escolar sobre Voleibol • Desenvolvido com HTML, CSS e JS</p>
+                <button class="btn-link-scroll" id="btn-footer-start">Voltar ao Início &uarr;</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
